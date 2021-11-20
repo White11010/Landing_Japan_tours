@@ -948,8 +948,6 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -959,9 +957,14 @@ textarea {
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 14.6%;
     width: 100%;
     background: rgba(21, 24, 36, 0.6);
     padding: 16px 25px;
+}
+
+.top__card-thumb{
+    width: 100%;
 }
 
 .top__card-title{
@@ -1320,10 +1323,6 @@ textarea {
     .top__card-desc{
         margin-bottom: 16px;
     }
-    .top__card-stats{
-        max-width: 386px;
-    }
-
     .footer__logo {
         width: 100%;
         margin-bottom: 24px;
